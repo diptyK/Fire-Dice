@@ -169,12 +169,11 @@ main {
 }
 @media only screen and (max-width: 640px) {
   html {
-    font-size: 55%;
-    height: 100vh;
+    font-size: 50.5%;
   }
   main {
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
     border-radius: 0;
   }
   .player {
@@ -198,10 +197,5 @@ main {
   }
   .btn--hold:active {
     transform: translate(0%, 3px);
-  }
-}
-@media only screen and (max-width: 412px) {
-  html {
-    font-size: 48%;
   }
 }
