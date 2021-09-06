@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -157,7 +157,7 @@ main {
 }
 
 .player--winner {
-  background-color:rgba(29, 214, 106, 0.835);
+  background-color: rgba(55, 221, 152, 0.527);
 }
 
 .player--winner .name {
@@ -186,9 +186,9 @@ main {
   .btn--hold {
     top: 46rem;
     left: 70%;
-    transform:none;
+    transform: none;
   }
   .btn--hold:active {
     transform: translate(0%, 3px);
-}
+  }
 }
