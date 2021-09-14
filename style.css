@@ -199,24 +199,9 @@ main {
     transform: translate(0%, 3px);
   }
 }
-@media only screen and (max-width: 1440px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media only screen and (max-width: 812px) {
-  html {
-    font-size: 38%;
-  }
-}
-@media only screen and (max-width: 667px) {
-  html {
-    font-size: 35%;
-  }
-}
 @media only screen and (max-width: 540px) {
   html {
-    font-size: 44%;
+    font-size: 35%;
   }
 }
 @media only screen and (max-width: 414px) {
