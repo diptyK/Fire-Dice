@@ -214,7 +214,7 @@ main {
   }
   .btn--roll,
   .btn--hold {
-    top: 50%;
+    top: 48%;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -223,7 +223,7 @@ main {
   }
   .btn--roll,
   .btn--hold {
-    top: 54%;
+    top: 48%;
   }
 }
 @media only screen and (max-width: 320px) {
