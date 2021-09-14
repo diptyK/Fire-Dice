@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 60%;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 
@@ -157,7 +157,7 @@ main {
 }
 
 .player--winner {
-  background-color: rgba(55, 221, 152, 0.527);
+  background-color: rgb(45, 214, 144);
 }
 
 .player--winner .name {
@@ -199,13 +199,38 @@ main {
     transform: translate(0%, 3px);
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 540px) {
+  html {
+    font-size: 48%;
+  }
+  .btn--roll,
+  .btn--hold {
+    top: 48%;
+  }
+}
+/* @media only screen and (max-width: 414px) {
+  html {
+    font-size: 48%;
+  }
+  .btn--roll,  .btn--hold {
+    top: 48%;
+  }
+} */
+@media only screen and (max-width: 375px) {
   html {
     font-size: 44%;
+  }
+  .btn--roll,
+  .btn--hold {
+    top: 48%;
   }
 }
 @media only screen and (max-width: 320px) {
   html {
-    font-size: 35%;
+    font-size: 39%;
+  }
+  .btn--roll,
+  .btn--hold {
+    top: 50%;
   }
 }
