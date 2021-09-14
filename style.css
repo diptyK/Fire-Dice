@@ -180,18 +180,18 @@ main {
     justify-content: space-evenly;
   }
   .dice {
-    top: 45%;
+    top: 47%;
     left: 50%;
   }
   .btn--new {
     top: 2rem;
   }
   .btn--roll {
-    top: 50%;
+    top: 48.5%;
     left: 20%;
   }
   .btn--hold {
-    top: 50%;
+    top: 48.5%;
     left: 65%;
     transform: none;
   }
