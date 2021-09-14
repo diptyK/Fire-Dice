@@ -187,11 +187,11 @@ main {
     top: 2rem;
   }
   .btn--roll {
-    top: 48%;
+    top: 50%;
     left: 20%;
   }
   .btn--hold {
-    top: 48%;
+    top: 50%;
     left: 65%;
     transform: none;
   }
@@ -205,24 +205,25 @@ main {
   }
   .btn--roll,
   .btn--hold {
-    top: 48%;
+    top: 51%;
   }
 }
-/* @media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
   html {
     font-size: 48%;
   }
-  .btn--roll,  .btn--hold {
-    top: 48%;
+  .btn--roll,
+  .btn--hold {
+    top: 50%;
   }
-} */
+}
 @media only screen and (max-width: 375px) {
   html {
     font-size: 44%;
   }
   .btn--roll,
   .btn--hold {
-    top: 48%;
+    top: 52%;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -231,6 +232,6 @@ main {
   }
   .btn--roll,
   .btn--hold {
-    top: 50%;
+    top: 53%;
   }
 }
