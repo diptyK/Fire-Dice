@@ -203,18 +203,20 @@ main {
   html {
     font-size: 48%;
   }
-  .btn--roll,
-  .btn--hold {
-    top: 53%;
+}
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 39%;
   }
 }
+/* }
 @media only screen and (max-width: 414px) {
   html {
     font-size: 48%;
   }
   .btn--roll,
   .btn--hold {
-    top: 48%;
+    top: 47.5%;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -234,4 +236,4 @@ main {
   .btn--hold {
     top: 51%;
   }
-}
+} */
