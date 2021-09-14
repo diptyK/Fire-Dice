@@ -180,7 +180,7 @@ main {
     justify-content: space-evenly;
   }
   .dice {
-    top: 47%;
+    top: 46%;
     left: 50%;
   }
   .btn--new {
@@ -201,39 +201,55 @@ main {
 }
 @media only screen and (max-width: 540px) {
   html {
-    font-size: 48%;
+    font-size: 40%;
   }
 }
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 39%;
-  }
-}
-/* }
 @media only screen and (max-width: 414px) {
   html {
     font-size: 48%;
   }
   .btn--roll,
   .btn--hold {
-    top: 47.5%;
+    top: 46.5%;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   html {
-    font-size: 44%;
+    font-size: 47%;
   }
   .btn--roll,
   .btn--hold {
+    top: 47%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .btn--roll,
+  .btn--hold {
+    top: 49.5%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  html {
+    font-size: 45%;
+  }
+  .dice {
     top: 48%;
+  }
+  .btn--roll,
+  .btn--hold {
+    top: 48.5%;
   }
 }
 @media only screen and (max-width: 320px) {
   html {
     font-size: 39%;
   }
+  .dice {
+    top: 49%;
+  }
   .btn--roll,
   .btn--hold {
-    top: 51%;
+    top: 52%;
   }
-} */
+}
