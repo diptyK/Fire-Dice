@@ -208,25 +208,22 @@ main {
   html {
     font-size: 48%;
   }
-  .btn--roll,
-  .btn--hold {
-    top: 46.5%;
-  }
-}
-@media only screen and (max-width: 412px) {
-  html {
-    font-size: 47%;
+  .dice {
+    top: 47.5%;
   }
   .btn--roll,
   .btn--hold {
-    top: 47%;
+    top: 49%;
   }
 }
 
 @media only screen and (max-width: 375px) {
+  .dice {
+    top: 51%;
+  }
   .btn--roll,
   .btn--hold {
-    top: 49.5%;
+    top: 52%;
   }
 }
 @media only screen and (max-width: 360px) {
