@@ -268,11 +268,11 @@ main {
     height: 90vh;
   }
   .dice {
-    top: 47%;
-    height: 7.5rem;
+    top: 46%;
+    height: 7.8rem;
   }
   .btn--roll,
   .btn--hold {
-    top: 49%;
+    top: 47.67%;
   }
 }
