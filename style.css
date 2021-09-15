@@ -232,6 +232,7 @@ main {
 @media only screen and (max-width: 375px) {
   .dice {
     top: 48.2%;
+    height: 8.8rem;
   }
   .btn--roll,
   .btn--hold {
@@ -244,6 +245,7 @@ main {
   }
   .dice {
     top: 48%;
+    height: 7.8rem;
   }
   .btn--roll,
   .btn--hold {
@@ -252,10 +254,11 @@ main {
 }
 @media only screen and (max-width: 320px) {
   html {
-    font-size: 30%;
+    font-size: 32%;
   }
   .dice {
     top: 47%;
+    height: 7.8rem;
   }
   .btn--roll,
   .btn--hold {
@@ -271,6 +274,7 @@ main {
     top: 46%;
     height: 7.8rem;
   }
+
   .btn--roll,
   .btn--hold {
     top: 47.67%;
