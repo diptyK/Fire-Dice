@@ -185,7 +185,7 @@ main {
     left: 50%;
   }
   .btn--new {
-    top: 2rem;
+    top: 1.4rem;
   }
   .btn--roll {
     top: 48.5%;
@@ -233,9 +233,6 @@ main {
 @media only screen and (max-width: 375px) {
   html {
     font-size: 36%;
-  }
-  .btn--new {
-    top: 1rem;
   }
   .dice {
     top: 48.2%;
