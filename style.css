@@ -232,7 +232,7 @@ main {
 
 @media only screen and (max-width: 375px) {
   html {
-    font-size: 44%;
+    font-size: 36%;
   }
   .dice {
     top: 48.2%;
@@ -245,7 +245,7 @@ main {
 }
 @media only screen and (max-width: 360px) {
   html {
-    font-size: 44%;
+    font-size: 36%;
   }
   .dice {
     top: 47%;
