@@ -234,6 +234,9 @@ main {
   html {
     font-size: 36%;
   }
+  .btn--new {
+    top: 1rem;
+  }
   .dice {
     top: 48.2%;
     height: 8.8rem;
